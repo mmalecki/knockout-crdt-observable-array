@@ -1,0 +1,14 @@
+{
+  "name": "knockout-crdt-observable-array",
+  "author": "Maciej Małecki <me@mmalecki.com>",
+  "version": "0.0.0",
+  "description": "Make a `knockout.ObservableArray` out of CRDT set or document",
+  "dependencies": {
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mmalecki/knockout-crdt-observable-array.git"
+  },
+  "license": "MIT"
+}
