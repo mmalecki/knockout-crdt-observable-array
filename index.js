@@ -4,7 +4,7 @@ module.exports = function (set, f) {
   var arr = ko.observableArray([]);
 
   set.on('add', function (row) {
-    var r = new (f || Object)(row.toJSON());
+    var r = new (f || Object)(row);
     arr.push(r);
 
     set.on('remove', function onSetRemove(removed) {
