@@ -1,7 +1,7 @@
 {
   "name": "knockout-crdt-observable-array",
   "author": "Maciej Małecki <me@mmalecki.com>",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Make a `knockout.ObservableArray` out of CRDT set or document",
   "dependencies": {
   },
